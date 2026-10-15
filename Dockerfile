@@ -1,5 +1,6 @@
 
 FROM nginx:alpine
+RUN apk upgrade --no-cache
 
 COPY . /usr/share/nginx/html/
 
